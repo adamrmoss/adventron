@@ -1,0 +1,73 @@
+# ==== Fritzing artifacts / local files ===
+# The working “sketch” files and generated temp files
+*.fzz
+*.fzp
+*.fzpz
+*.svg
+*.png
+*.bak
+*.tmp
+*.~*
+
+# Fritzing internal cache or backup directories
+.fritzing*
+# (if you have a “parts” build folder or export folder)
+parts_build/
+export/
+
+# ==== Assembler / WDC tool artifacts ===
+*.o
+*.obj
+*.bin
+*.hex
+*.lst
+*.map
+*.sym
+*.out
+*.rel
+
+# intermediate build folders
+build/
+dist/
+tmp/
+release/
+debug/
+
+# Linker / loader temporary files
+*.lli
+*.dep
+*.d
+
+# ==== Editor / IDE / OS ===
+# VSCode / Atom
+.vscode/
+*.code-workspace
+
+# Emacs, Vim backup + swap
+*~
+.*.swp
+.*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+__MACOSX
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Ignore generated or compiled documentation
+docs/_build/
+docs/html/
+
+# Optional: include assembly source, config, scripts
+!src/
+!asm/
+!include/
+!Makefile
